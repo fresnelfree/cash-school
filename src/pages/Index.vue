@@ -112,7 +112,7 @@ export default {
     return {
       name: 'null',
       age: null,
-      color: 'essaie',
+      qeditor: 'essaie',
       motif: '',
       password: '',
       email: '',
