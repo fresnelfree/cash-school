@@ -105,9 +105,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'help',
+        name: 'cash-school',
 
-        short_name: 'help',
+        short_name: 'cash-school',
         description: 'A Quasar Framework app',
         display: 'standalone',
         orientation: 'portrait',
@@ -117,27 +117,27 @@ module.exports = function (/* ctx */) {
         theme_color: '#027be3',
         icons: [
           {
-            src: 'statics/icons/icon-128x128.png',
+            src: 'statics/Student.png',
             sizes: '128x128',
             type: 'image/png'
           },
           {
-            src: 'statics/icons/icon-192x192.png',
+            src: 'statics/Student.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'statics/icons/icon-256x256.png',
+            src: 'statics/Student.png',
             sizes: '256x256',
             type: 'image/png'
           },
           {
-            src: 'statics/icons/icon-384x384.png',
+            src: 'statics/Student.png',
             sizes: '384x384',
             type: 'image/png'
           },
           {
-            src: 'statics/icons/icon-512x512.png',
+            src: 'statics/Student.png',
             sizes: '512x512',
             type: 'image/png'
           }
@@ -176,7 +176,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'help-app'
+        appId: 'cash-school-app'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

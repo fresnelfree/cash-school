@@ -1,8 +1,8 @@
 {
-  "name": "help-app",
+  "name": "cash-school",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "help",
+  "productName": "cash-school",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "teboukeu tsafack fresnel <teboukeufresnel@gmail.com>",
