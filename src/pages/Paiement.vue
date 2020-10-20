@@ -139,7 +139,7 @@
         </div>
         <div class="col-md-6">
           <q-scroll-area :thumb-style="thumbStyle" :bar-style="barStyle" style="height: 300px; ">
-            <q-table title="" :data="data" :columns="columns" row-key="name" selection="multiple" :selected.sync="selected" :filter="filter" grid hide-header>
+            <q-table title="Classes" :data="data" :columns="columns" row-key="name" selection="multiple" :selected.sync="selected" :filter="filter" grid hide-header>
               <template class="q-mt-md" v-slot:top-right>
                 <q-btn class="q-mt-md" flat icon="edit" label="" color="blue" />
                 <q-btn label="" flat icon="delete" color="red" class="q-ml-md q-mt-md" />
@@ -182,11 +182,8 @@
           <q-select filled v-model="motif" :options="motifs" label="Classe" bg-color="" color="black" clearable options-selected-class="text-deep-orange" :rules="[ val => val.value && val.value.length > 0 || 'Veuillez selectionner une classe']">
           </q-select>
         </div>
-        <div class="col-10 q-pa-xs">
-          <q-input filled v-model="name" label="Nom *" hint="" lazy-rules :rules="[ val => val && val.length > 0 || 'Veuillez entrer votre nom']" clearable />
-        </div>
-        <div class="col-1">
-          <q-btn icon="settings" class="q-mt-md" color="red" flat />
+        <div class="col-12 q-pa-xs">
+          <q-input filled v-model="name" label="Mot de passe *" hint="" lazy-rules :rules="[ val => val && val.length > 0 || 'Veuillez entrer votre nom']" clearable />
         </div>
         <div class="q-mt-md">
           <q-btn outline label="Submit" type="submit" color="blue" class="q-ml-xl" />

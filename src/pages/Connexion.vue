@@ -19,13 +19,15 @@
         <q-input filled v-model="name" label="Your password *" hint="" lazy-rules :rules="[ val => val && val.length > 0 || 'Please type something']" />
         <div class="">
           <q-btn outline label="Submit" type="submit" color="teal" />
-          <q-btn class="q-ml-xl" flat label="Mot de passe oublié ?" color="blue" />
+          <q-btn class="q-ml-md" flat label="Mot de passe oublié ?" color="blue" />
         </div>
       </q-form>
     </div>
-    <div class="col-12 text-center q-mt-lg">
-      <a style="color:black" class="text-center">Pas encore membre ? </a>
-      <q-btn color="blue" flat class="q-ml-md">Créer un compte</q-btn>
+    <div class="col-5 text- q-mt-lg">
+      <a style="color:black" class="">Pas encore membre ? </a>
+    </div>
+    <div class="col-7 text- q-mt-lg">
+      <q-btn color="blue" flat class="">Créer un compte</q-btn>
     </div>
   </div>
 

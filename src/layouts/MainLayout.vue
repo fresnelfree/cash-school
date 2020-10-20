@@ -1,6 +1,6 @@
 <template>
 <q-layout view="lHh Lpr lFf">
-  <q-header elevated class="bg-red-9">
+  <q-header style="width:100%;" elevated class="bg-red-9">
     <q-toolbar>
       <q-btn flat dense round icon=" menu" aria-label="Menu" @click="leftDrawerOpen = !leftDrawerOpen" />
 
@@ -8,7 +8,7 @@
         CASH-SCHOOL
       </q-toolbar-title>
 
-      <div>Quasar</div>
+      <div></div>
     </q-toolbar>
   </q-header>
 
